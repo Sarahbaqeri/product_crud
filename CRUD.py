@@ -28,7 +28,7 @@ class Products:
         
     def create(self):
         self.products_list.append(self.title)
-        return self.title + self.short_description  + self.description
+        return self.title + self.short_description +str(self.price) + self.description
         
     
     def read(self):

@@ -5,14 +5,17 @@ p1=Products(1,1,'sarah','saaa','asqs','qs','wsq',True,'ws',11,221,21,'sqws','qws
 
 print(p1)
 
-print(type(Products))
-
 print(p1.create())
 
 print(p1.read())
 
 print(p1.update())
 
-print(p1.delete)
+print(p1.delete())
 
-print(isinstance(p1,Products))
+
+# class type
+print(type(Products)) # <class 'type'>
+
+# isinstance
+print(isinstance(p1,Products)) # True
